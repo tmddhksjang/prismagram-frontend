@@ -6,7 +6,7 @@ import Theme from "../Styles/Theme";
 import Router from "./Router";
 
 const QUERY = gql`
- typeof {
+  {
     isLoggedIn @client
 
    }  
